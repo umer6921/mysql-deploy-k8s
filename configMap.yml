@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: mysql
+  labels:
+    app: mysql
+data:
+  MySQL_DATABASE: "cooldb"  # Database Name Variable
