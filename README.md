@@ -1,4 +1,4 @@
-# Deploy MySQL by the concept of ConfigMap and Secret objects in K8s
+# Deploy MySQL by the concept of ConfigMap, Secret and Persistent Volume in K8s
 ### Secret
  Secret is an object used to store and manage sensitive information, such as passwords, API tokens, and encryption keys. It's a way to securely store and access confidential data that your applications or services may need without exposing this information in your Kubernetes configuration files.
  
